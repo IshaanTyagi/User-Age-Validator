@@ -1,0 +1,33 @@
+.message {
+  font-size: 30px;
+  width: 100%;
+  padding: 10px;
+}
+.black {
+  padding: 10px;
+
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  font-size: 30px;
+  padding: 10px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+.valid {
+  height: 30vh;
+  position: absolute;
+  top: 30vh;
+  left: 14.5vw;
+  z-index: 20;
+  padding-bottom: 20px;
+}
+
+.valid::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
