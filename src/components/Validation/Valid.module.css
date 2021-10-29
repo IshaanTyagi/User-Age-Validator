@@ -1,29 +1,30 @@
 .message {
-  font-size: 30px;
-  width: 100%;
+  font-size: 26px;
   padding: 10px;
+  margin: 8px;
+  width: 25%;
+  text-align: center;
 }
 .black {
-  padding: 10px;
-
   background-color: black;
-  height: 70px;
+  height: 60px;
   width: 100%;
-  font-size: 30px;
+  font-size: 27px;
   padding: 10px 0px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: white;
+  margin: 1px;
+  text-align: center;
 }
 .valid {
-  height: 30vh;
+  height: 28vh;
   position: absolute;
-  top: 30vh;
+  top: 24vh;
   left: 14.5vw;
   z-index: 20;
   padding-bottom: 20px;
 }
-
 .valid::after {
   content: "";
   position: absolute;
