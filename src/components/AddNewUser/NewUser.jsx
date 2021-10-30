@@ -37,7 +37,7 @@ function NewUser(props) {
       <Card>
         <form onSubmit={handelSubmit}>
           <div className={Style.form__content}>
-            <label htmlFor="username">Enter Your Name</label>
+            <label htmlFor="username" className={Style.userName}><span>Enter Your Name</span></label>
             <input
               type="text"
               name="username"
@@ -47,7 +47,7 @@ function NewUser(props) {
             />
           </div>
           <div className={Style.form__content}>
-            <label htmlFor="age"> Age</label>
+            <label htmlFor="age" className={Style.userAge}><span>Age</span></label>
             <input
               type="number"
               name="age"
