@@ -1,9 +1,17 @@
 .button {
-  width: fit-content;
+  /* width: fit-content; */
   background-color: #da0037;
   border: none;
   padding: 10px 30px;
   border-radius: 5px;
   color: white;
-  margin: auto;
+  text-align: left;
+  display: block;
+  margin-top: 2%;
+  font-size: 16px;
+  text-decoration: none;
+  /* transition: 300ms; */
+}
+.button:hover {
+  text-decoration: underline;
 }
