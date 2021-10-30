@@ -9,9 +9,9 @@ function ValidBox(props) {
   }
   return (
     <Card className={Style.valid}>
-      <div className={Style.black}>Error!!!</div>
+      <div className={Style.black}>Error !!!</div>
       <div className={Style.message}>{props.message}</div>
-      <Button onClick={handelClick}>Ok</Button>
+      <Button onClick={handelClick} className={Style.okay}>Ok</Button>
     </Card>
   );
 }
