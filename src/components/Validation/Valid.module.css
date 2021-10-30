@@ -1,34 +1,87 @@
 .message {
-  font-size: 26px;
-  padding: 10px;
-  margin: 8px;
-  width: 25%;
-  text-align: center;
+  font-size: 30px;
+  /* width: 100%; */
+  padding: 0px;
+  text-align: left;
+  width: 24%;
+  border-bottom: 2px solid red;
+  border-radius: 6px;
 }
 .black {
-  background-color: black;
-  height: 60px;
-  width: 100%;
-  font-size: 27px;
-  padding: 10px 0px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  color: white;
-  margin: 1px;
-  text-align: center;
+  /* padding: 10px; */
+
+  /* background-color: red; */
+  border: none;
+  outline: none;
+  border-bottom: 2px solid red;
+  text-align: left;
+  height: 30px;
+  width: 87%;
+  /* padding: 10px 0px 0px 12px; */
+  border-radius: 6px;
+  font-size: 30px;
+  /* padding: 10px 0px; */
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: rgb(0, 0, 0);
 }
+
+/* .black:hover {
+  font-style: italic;
+}
+
+.message:hover {
+  font-style: italic;
+} */
+
 .valid {
-  height: 28vh;
+  height: 30vh;
   position: absolute;
-  top: 24vh;
-  left: 14.5vw;
+  top: 25vh;
+  left: 25vw;
   z-index: 20;
   padding-bottom: 20px;
 }
+
 .valid::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   background-color: black;
+}
+div .black {
+  text-align: center;
+  width: 16%;
+  margin: 7% auto auto auto;
+}
+div .message {
+  text-align: center;
+  width: 45%;
+  margin: 6% auto auto auto;
+}
+div {
+  text-align: left;
+}
+div .valid {
+  width: 50%;
+}
+.okay {
+  margin: 4% auto auto auto;
+}
+div .valid:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  background-color: red;
+  /* transform-origin: bottom right; */
+  transition: transform 0.25s ease-out;
+}
+div .valid:hover:after {
+  transform: scaleX(1);
 }
